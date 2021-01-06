@@ -4,7 +4,7 @@
 1
 3
 ```
-# Explaination
+# Explanation
 
 1. `1` goroutine fired at first, but it's blocks instantly for 2 second with `sleep`. 
 2. `2` gorutine will be executed ASAP, but with no guarantee(program can exit before).
